@@ -30,7 +30,9 @@ footer {
     background-color: #004080;
     color: white;
     padding: 10px;
-    text-align: center;;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -39,7 +41,11 @@ footer {
     text-align: center;
     padding: 20px;
     margin: 20px;
+}
+
+#about ul {
     list-style-position: inside;
+    list-style-type: "-";
 }
 
 #login {
@@ -62,6 +68,8 @@ footer {
 #login button {
     background-color: #008000;
     color: white;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 #login button:hover {
@@ -75,4 +83,41 @@ footer {
 
 #login a:hover {
     text-decoration: underline;
+}
+
+h2 {
+    color: #004080;
+    text-align: center;
+}
+
+select {
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+td {
+    background-color: #e6f2ff;
+    box-shadow: darkgray 3px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.accept-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.accept-btn:hover {
+    background-color: #265e28;
+}
+
+.decline-btn {
+    background-color: #D32F2F;
+    color: white;
+}
+
+.decline-btn:hover {
+    background-color: #821b1b;
 }
