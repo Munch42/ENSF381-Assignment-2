@@ -8,28 +8,25 @@
     <header>
         <img src="logo.jpg" alt="LMS Logo" height="100" width="100">
         <h1>LMS - Learning Management System</h1>
+        <h2>LMS Login</h2>
     </header>
     <div id="nav">
         <a href="index.html">Homepage</a>
     </div>
-    <h2>LMS Login</h2>
     <main id="login">
         <form>
-            <br><br>
-            <label for="username">Username:</label><br>
-            <input type="text" id="username" name="username">
-            <br><br>
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password">
-            <br><br>
-            <a href="course_view.html"><button type="button">Login</button></a>
-            <br><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            
+            <button type="submit" formaction="course_view.html">Login</button><br><br>
             <a href="#">Forgot Password?</a>
         </form>
     </main>
     <footer>
-        <br>
-        &copy 2025 LMS. All rights reserved.
+        <p>&copy; 2025 LMS. All rights reserved.</p>
     </footer>
 </body>
 </html>
