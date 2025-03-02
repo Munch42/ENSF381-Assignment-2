@@ -197,6 +197,7 @@ select {
     padding: 20px;
     margin: 0 250px; 
     text-align: center;
+    
    
 }
 
@@ -209,6 +210,8 @@ select {
     background-color: #cacaca; 
     padding: 15px;
     text-align: left;
+    max-width: 200px;
+    margin: 10px auto;
 }
 
 .submit-button, .finish-button {
